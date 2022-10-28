@@ -1,0 +1,69 @@
+body{
+    background-color: rgb(243,244,246);
+}
+
+.container{
+    max-width: 500px;
+    margin: auto;
+    margin-top: 80px;
+    background: rgb(255,255,255);
+    border-radius: 10px;
+
+}
+
+.shadowBoxContainer{
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+    padding: 40px;
+    padding-top: 20px;
+    border-radius: 10px;
+
+}
+.shadowBoxContainer > h1 {
+    font-weight: 600;
+    color: rgb(25,118,210);
+}
+.shadowBoxContainer > h1 > span{
+    color: rgb(4, 4, 122);
+    font-size: larger;
+}
+
+.gray{
+    --tw-text-opacity: 1;
+    color: rgb(55 65 81/var(--tw-text-opacity));
+    font-weight: 500;
+    font-size: 1.2rem;
+    line-height: 2.25rem;
+    display: block;
+    text-align: left;
+}
+
+.inputcont{
+    display: flex;
+    justify-content: flex-start;
+}
+.inputcontO{
+    display: flex;
+    justify-content: flex-start;
+    height: 50px;
+}
+.checkBoxSubmit{
+    display: flex;
+    margin-top: 0px;
+    justify-content: flex-end;
+}
+
+.addLink{
+    margin-right: 20px;
+    color: black;
+    /* margin-top: 15px; */
+}
+
+.wrongCred{
+    font-size: large;
+    color: red;
+    text-align: left;
+    margin-left: 3px;
+}
+.rightCred{
+    display: none;
+}
